@@ -8,12 +8,8 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
-        // Создаем тестовых пользователей с API токенами
         User::create([
             'name' => 'John Doe',
             'email' => 'john@example.com',
